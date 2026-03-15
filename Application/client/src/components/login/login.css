@@ -1,0 +1,83 @@
+.login-container {
+    margin: 50px auto;
+    width: 25%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+}
+
+.login-container h3 {
+    text-align: center;
+    font-weight: bold;
+    color: darkcyan;
+    text-transform: uppercase;
+}
+
+.inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup label {
+    margin: 5px;
+}
+
+.inputGroup input {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.inputGroup input:focus {
+    border-color: darkcyan;
+    outline: none;
+}
+
+button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: darkcyan;
+    color: white;
+}
+
+button:hover {
+    background-color: #008b8b;
+}
+
+.Signup {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Signup .btn.btn-success {
+    width: 50%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .login-container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    .login-container {
+        width: 90%;
+        padding: 30px;
+    }
+}
+
+
+.btn.btn-success{
+    margin-top: 15px;
+}

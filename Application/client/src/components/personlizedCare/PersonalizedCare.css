@@ -1,0 +1,48 @@
+.care-container {
+    padding: 30px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+h2 {
+    color: #2c7a7b;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.care-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.care-card {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 100%;
+    max-width: 550px;
+    transition: transform 0.2s ease;
+}
+
+.care-card:hover {
+    transform: translateY(-6px);
+}
+
+h3 {
+    color: #276749;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+p {
+    color: #4a5568;
+    font-size: 16px;
+    line-height: 1.6;
+}

@@ -1,0 +1,62 @@
+.disease-diagnosis-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fdfdfd;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.disease-diagnosis-container h2,
+.disease-diagnosis-container h3,
+.disease-diagnosis-container h4 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.disease-diagnosis-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.disease-diagnosis-container input[type="file"] {
+  padding: 0.5rem;
+}
+
+.disease-diagnosis-container button {
+  padding: 0.6rem 1.2rem;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.disease-diagnosis-container button:hover {
+  background-color: #27ae60;
+}
+
+.disease-diagnosis-container ul {
+  padding-left: 1.5rem;
+}
+
+.disease-diagnosis-container li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.disease-diagnosis-container p {
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.loading {
+  font-style: italic;
+  color: #999;
+}

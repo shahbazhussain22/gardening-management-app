@@ -1,0 +1,248 @@
+/* Container Styling */
+.search-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title */
+.search-container h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* Admin Add Plant Form Styling */
+.add-plant-form {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Two-column layout */
+.add-plant-form form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 40px;
+    justify-content: center;
+}
+
+.add-plant-form h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+/* Input Fields and Dropdowns */
+.add-plant-form input,
+.add-plant-form select {
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.add-plant-form input:focus,
+.add-plant-form select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Submit Button */
+.add-plant-form button {
+    grid-column: span 2;
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+.add-plant-form button:hover {
+    background-color: #1e8449;
+}
+
+/* Search Fields */
+.search-fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.search-fields input,
+.search-fields select {
+    padding: 10px;
+    font-size: 11px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+    width: 180px;
+}
+
+.search-fields input:focus,
+.search-fields select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.search-fields button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    white-space: nowrap;
+}
+
+.search-fields button:hover {
+    background-color: #2980b9;
+}
+
+/* Results Grid Layout */
+.results-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 0 10px;
+}
+
+.results-container ul {
+    display: contents;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.results-container li {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.results-container li:hover {
+    background: #e3f2fd;
+    transform: scale(1.02);
+}
+
+/* Plant Details Box */
+.plant-details-box {
+    margin-top: 20px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.plant-details-box h3 {
+    color: #2c3e50;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.plant-details-box p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 16px;
+}
+
+.plant-details-box ul {
+    padding-left: 15px;
+}
+
+.plant-details-box li {
+    font-size: 15px;
+    color: #333;
+}
+
+/* Modal Styling */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.modal-close:hover {
+    color: #000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .search-container {
+        max-width: 90%;
+    }
+
+    .search-fields input,
+    .search-fields select,
+    .search-fields button,
+    .add-plant-form input,
+    .add-plant-form select {
+        width: 100%;
+    }
+
+    .add-plant-form form {
+        grid-template-columns: 1fr;
+    }
+
+    .add-plant-form button {
+        grid-column: span 1;
+        width: 100%;
+    }
+
+    .results-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}

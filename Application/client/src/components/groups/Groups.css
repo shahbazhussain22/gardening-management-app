@@ -1,0 +1,117 @@
+.group-container {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+}
+
+.group-form {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px 25px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.group-form input,
+.group-form textarea {
+  padding: 10px 12px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.group-form button {
+  padding: 10px 14px;
+  font-size: 15px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.group-form button:hover {
+  background-color: #218838;
+}
+
+.group-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.group-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.group-card h5 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.group-card p {
+  margin: 4px 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.group-card a {
+  display: inline-block;
+  margin-right: 12px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.group-card a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons container for horizontal alignment */
+.group-card .button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.group-card .join-btn,
+.group-card .remove-btn {
+  padding: 6px 10px;
+  font-size: 13px;
+  min-width: 100px;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.group-card .join-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.group-card .join-btn:hover {
+  background-color: #0056b3;
+}
+
+.group-card .remove-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.group-card .remove-btn:hover {
+  background-color: #c82333;
+}

@@ -1,0 +1,56 @@
+/* Navbar Styling */
+
+/* Login and Edit Profile Buttons */
+.navbar .btn-login, 
+.navbar .btn-edit, 
+.navbar .btn-tools { /* <-- Added .btn-tools */
+    background-color: #198754;
+    color: white; 
+    border: 1px solid white;
+    padding: 8px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 5px;
+    transition: all 0.3s ease;
+}
+
+.navbar .btn-login:hover, 
+.navbar .btn-edit:hover, 
+.navbar .btn-tools:hover { /* <-- Added .btn-tools hover */
+    background-color: white;
+    color: #198754;
+}
+
+/* Register Button */
+.navbar .btn-register {
+    background-color: #198754;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+
+.navbar .btn-register:hover {
+    background-color: white;
+    color: #198754;
+}
+
+/* Logout Button */
+.navbar .btn-logout {
+    background-color: #198754;
+    color: white; 
+    border: 1px solid white;
+    padding: 8px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 5px;
+    transition: all 0.3s ease;
+}
+
+.navbar .btn-logout:hover {
+    background-color: white;
+    color: #198754;
+}

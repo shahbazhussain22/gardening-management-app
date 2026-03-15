@@ -1,0 +1,33 @@
+/* Section padding */
+.tools-section {
+    padding: 40px 20px;
+}
+
+/* Card style for each tool */
+.tool-card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Hover effect */
+.tool-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Emoji/icon size and color */
+.tool-icon {
+    font-size: 48px;
+    color: #28a745;
+}
+
+/* Optional: Style the tool button */
+.tool-card .btn {
+    margin-top: 15px;
+    font-weight: 500;
+    padding: 8px 20px;
+}

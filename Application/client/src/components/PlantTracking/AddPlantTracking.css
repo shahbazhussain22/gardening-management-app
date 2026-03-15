@@ -1,0 +1,69 @@
+.plant-tracking-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.plant-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.plant-form input,
+.plant-form textarea,
+.plant-form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error-message,
+.success-message {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: #e74c3c; /* Red for error */
+}
+
+.success-message {
+    color: #2ecc71; /* Green for success */
+}
+
+/* Shared button style for both Add Plant and Plant List */
+.plant-buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 30px 0;
+}
+
+.plant-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease;
+    width: 150px;
+}
+
+.plant-button:hover {
+    background-color: #388e3c;
+}

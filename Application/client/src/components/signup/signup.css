@@ -1,0 +1,48 @@
+.addUser{
+    margin: 50px auto;
+    width: 25%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0,0,0, 0.065);
+}
+
+.addUser .inputGroup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.addUser .inputGroup label{
+margin: 5px;
+}
+
+.addUser .inputGroup select{
+    margin: 10px;
+    padding: 10px;
+}
+.addUser .inputGroup input{
+    margin: 5px;
+    padding: 10px
+}
+
+.inputGroup button{
+    margin-top: 10px;
+}
+
+.Signup{
+    margin-top:20px;
+    text-align: center;
+}
+
+.Signup .btn.btn-success{
+    width:50%
+
+}
+
+.addUser h3{
+    text-align: center;
+    font-weight: bold;
+    color: darkcyan;
+    text-transform: uppercase;
+}
